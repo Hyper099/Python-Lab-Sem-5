@@ -1,0 +1,8 @@
+Total reviews processed: 34
+Total valid reviews: 32
+Total invalid reviews: 2
+
+Top 3 products by average rating:
+uwf2423efg	->	5.00
+aaaaaaaaaa	->	5.00
+ffffffffff	->	5.00
