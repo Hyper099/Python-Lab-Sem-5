@@ -1,13 +1,17 @@
 import csv
+import os
 
 def calculae_avg(data):
   avg = round(sum(data) / len(data), 2)
   return avg
 
+INPUT_DIR = '../Data/students.csv'
+OUTPUT_DIR = '../Outputs/output_exp2'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def main():
   main_data = []
-  with open('../Data/students.csv', mode='r') as f:
+  with open(f'{INPUT_DIR}', mode='r') as f:
     csvReader = csv.DictReader(f)
     for line in csvReader:
       student_avg = {}
@@ -22,12 +26,12 @@ def main():
       main_data.append(student_avg)
 
   fields = ['Name', 'Average']
-  with open('student_average_grades.csv', 'w', newline='') as f:
+  grades_csv = os.path.join(OUTPUT_DIR, 'student_average_grades.csv')
+  with open(grades_csv, 'w', newline='') as f:
     csvwriter = csv.DictWriter(f, fieldnames=fields)
     csvwriter.writeheader()
     csvwriter.writerows(main_data)
   
 
-  
 if __name__ == "__main__":
   main()

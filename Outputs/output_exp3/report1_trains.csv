@@ -1,0 +1,6 @@
+Train ID,Train Name,Source,Destination,Seats Available
+T0001,Train1,A,Z,27
+T0002,Train2,B,Y,34
+T0003,Train3,E,X,124
+T0004,Train4,H,W,352
+T0005,Train5,D,V,320

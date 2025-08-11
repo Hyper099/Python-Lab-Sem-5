@@ -1,6 +1,6 @@
-Train ID, Train Name, Source Station, Destination Station, Total Seats
-T0001,Train1, A, Z, 32
-T0002,Train2, B, Y, 36
-T0003,Train3, E, X, 132
-T0004,Train4, H, W, 352
-T0005,Train5, D, V, 320
+Train ID,Train Name,Source Station,Destination Station,Total Seats
+T0001,Train1,A,Z,32
+T0002,Train2,B,Y,36
+T0003,Train3,E,X,132
+T0004,Train4,H,W,352
+T0005,Train5,D,V,320
