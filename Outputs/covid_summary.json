@@ -1,0 +1,17 @@
+{
+    "Brazil": {
+        "total_confirmed": 19800000,
+        "total_deaths": 554000,
+        "total_recovered": 18600000
+    },
+    "India": {
+        "total_confirmed": 31600000,
+        "total_deaths": 424000,
+        "total_recovered": 30700000
+    },
+    "USA": {
+        "total_confirmed": 35000000,
+        "total_deaths": 613000,
+        "total_recovered": 29000000
+    }
+}
