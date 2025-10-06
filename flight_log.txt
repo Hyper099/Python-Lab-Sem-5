@@ -1,0 +1,7 @@
+2025-10-06 15:10:21,338 - INFO - Flight taking off from Daman to America
+2025-10-06 15:10:21,339 - INFO - Takeoff step 1: Speed=200 km/h, Altitude=1000 ft
+2025-10-06 15:10:23,340 - INFO - Takeoff step 2: Speed=400 km/h, Altitude=2000 ft
+2025-10-06 15:10:25,341 - INFO - Takeoff step 3: Speed=600 km/h, Altitude=3000 ft
+2025-10-06 15:10:27,351 - INFO - Journey: 29.2 km covered, Speed=584, Altitude=2881
+2025-10-06 15:10:27,351 - CRITICAL - MAYDAY MAYDAY:::  CRASHED:::   at 29.2 km!
+2025-10-06 15:10:44,638 - INFO - Email sent to 23bcp332@sot.pdpu.ac.in with subject: ALERT: Flight Crash Detected!
